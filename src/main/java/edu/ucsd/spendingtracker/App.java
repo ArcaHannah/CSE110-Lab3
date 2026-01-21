@@ -2,8 +2,8 @@ package edu.ucsd.spendingtracker;
 
 import edu.ucsd.spendingtracker.datasource.InMemoryDataSource;
 import edu.ucsd.spendingtracker.model.Model;
-import edu.ucsd.spendingtracker.presenter.SpendingPresenter;
 import edu.ucsd.spendingtracker.presenter.PresenterManager;
+import edu.ucsd.spendingtracker.presenter.SpendingPresenter;
 import edu.ucsd.spendingtracker.presenter.SummaryPresenter;
 import edu.ucsd.spendingtracker.repository.ExpenseRepository;
 import edu.ucsd.spendingtracker.view.SpendingView;
