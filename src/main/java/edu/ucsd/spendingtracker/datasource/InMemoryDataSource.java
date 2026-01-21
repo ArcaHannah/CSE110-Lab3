@@ -22,8 +22,8 @@ public class InMemoryDataSource {
     
     public final static List<Expense> DEFAULT_EXPENSES = List.of(
         new Expense("Grocieries", Category.FOOD, 101.75),
-        new Expense("Utilities", Category.UTILITIES, 80.5),
-        new Expense("Gas", Category.TRANSPORT, 60.0),
+        new Expense("Utilities", Category.UTILITIES, 80.50),
+        new Expense("Gas", Category.TRANSPORT, 60.00),
         new Expense("Movie Tickets", Category.ENTERTAINMENT, 30.0),
         new Expense("Online Order", Category.OTHER, 45.25)
     );

@@ -16,6 +16,7 @@ public class SpendingView extends BorderPane {
        
         Text title = new Text("Spending Tracker");
         title.setStyle("-fx-font-weight: bold; -fx-font-size: 24;");
+        headerBox.getChildren().add(title);
        
         listContainer = new VBox(5);
         ScrollPane scroller = new ScrollPane(listContainer);
