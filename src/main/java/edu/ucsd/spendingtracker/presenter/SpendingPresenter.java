@@ -11,7 +11,7 @@ public class SpendingPresenter extends AbstractPresenter<SpendingView> {
     //private final SpendingView view;
 
     public SpendingPresenter(Model model, SpendingView view) {
-        //super(model, view);
+        super(model, view);
         //this.model = model;
         this.view.getSummaryButton().setOnAction(e -> {
             if (onShowSummary != null) {
@@ -21,7 +21,7 @@ public class SpendingPresenter extends AbstractPresenter<SpendingView> {
 
         updateView();
     }   
-    public void setOnShowSummary(Runnable onShowSummary) {
+    public void setOnShowSummary(Runnable action) {
         this.onShowSummary = action;
     }
 

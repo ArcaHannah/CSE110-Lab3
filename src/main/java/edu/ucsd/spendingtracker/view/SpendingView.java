@@ -3,10 +3,12 @@ import javafx.geometry.*;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.text.*;
+import edu.ucsd.spendingtracker.presenter.SpendingPresenter;;
 
 
 public class SpendingView extends BorderPane {
     private VBox listContainer;
+    private Button summaryButton = new Button("Show Summary");
 
 
     public SpendingView() {
@@ -50,5 +52,9 @@ public class SpendingView extends BorderPane {
 
         row.getChildren().addAll(new Label(idx + "."), nameL, catL, amtL);
         listContainer.getChildren().add(row);
+    }
+
+    public Button getSummaryButton() {
+        return summaryButton;
     }
 }
