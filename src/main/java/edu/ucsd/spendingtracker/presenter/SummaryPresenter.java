@@ -7,7 +7,7 @@ public class SummaryPresenter extends AbstractPresenter<SummaryView> {
     public SummaryPresenter (Model model, SummaryView view) {
         super(model, view);
         this.view.getBackButton().setOnAction(e -> {
-            if (onBack != null)
+        if (onBack != null)
             onBack.run();
         });
     }

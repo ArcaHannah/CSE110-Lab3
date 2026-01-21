@@ -3,8 +3,6 @@ import javafx.geometry.*;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.text.*;
-import edu.ucsd.spendingtracker.presenter.SpendingPresenter;;
-
 
 public class SpendingView extends BorderPane {
     private VBox listContainer;
